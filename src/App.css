@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  padding: 25px;
 }
 
 .App-logo {
@@ -35,4 +36,43 @@
   to {
     transform: rotate(360deg);
   }
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+h2 {
+  margin: 0px;
+}
+.sort-btn  {
+  margin-bottom: 5px
+}
+.flex {
+  display: flex;
+  float: right;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+.form-section {
+  border: 1px solid #dddddd;
+}
+form {
+  padding: 30px;
+  display: flex;
+}
+label {
+  padding: 20px;
 }
